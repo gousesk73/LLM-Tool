@@ -1,0 +1,17 @@
+fastapi==0.95.2           # Ensure compatibility with Pydantic v1
+uvicorn==0.22.0           # Version for running FastAPI server
+langchain==0.2.16         # Version compatible with Pydantic v1         # For vector store functionalities
+openai==1.53.0            # OpenAI API integration
+PyPDF2==3.0.1             # For PDF text extraction
+python-dotenv==1.0.0      # For loading environment variables
+langchain_community==0.2.17  # Community extensions for LangChain
+langchain_openai==0.1.25  # LangChain OpenAI module
+langchain_google_genai==1.0.10  # LangChain integration with Google Generative AI
+google-generativeai==0.7.2  # Google Generative AI client library
+python-multipart==0.0.6   # For handling form data in FastAPI
+pydantic==1.10.9          # Ensure compatibility for older versions
+psycopg2               # PostgreSQL driver for database connection (if needed)
+pdfplumber
+pytesseract
+faiss-cpu
+
