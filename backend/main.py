@@ -26,7 +26,7 @@ DATABASE_URL = os.getenv("DATABASE_URL")
 
 app = FastAPI()
 
-# Setup logging
+
 logging.basicConfig(level=logging.INFO)
 
 app.add_middleware(
